@@ -119,4 +119,5 @@ a列表按照元素，"\n"，元素，"\n"...的顺序进行生成，每个元�
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/28328736/1684136264209-ea68c3a5-1742-43ef-b361-9cf51865b6cd.png#averageHue=%2332302f&clientId=u296265a4-c468-4&from=paste&height=267&id=uf81d2d6d&originHeight=267&originWidth=688&originalType=binary&ratio=1&rotation=0&showTitle=false&size=16819&status=done&style=none&taskId=uedc49575-5094-4857-be6a-be23847f865&title=&width=688)
 
 而getApp方法似乎为小程序框架本身提供的方法，js无法直接执行，删掉关于util的引用后，报错消失
+
 5. 部分函数为小程序初次编译时运行，调试过程中下断点并不执行，需要重新编译再调试观察
